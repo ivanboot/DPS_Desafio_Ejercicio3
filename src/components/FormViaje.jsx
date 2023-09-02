@@ -29,8 +29,6 @@ const FormViaje = (props) => {
     }
 
     const handleClick = () => {
-        console.log("Destino: " + destino);
-        console.log("Cantidad de personas: " + cantPersona);
 
         if (cantPersona < 0) {
             return;
@@ -106,11 +104,6 @@ const FormViaje = (props) => {
         setImpuesto(impuest);
         setTotal(costoTotal);
 
-
-        console.log("Porcentaje " + porcentaje);
-        console.log("Costo paquete " + costoPaquete);
-        console.log("Impuesto " + impuesto);
-        console.log("Total " + total);
 
     }
 
