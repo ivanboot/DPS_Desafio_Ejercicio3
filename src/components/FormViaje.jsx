@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react';
+import Result from "./Result";
 
 const FormViaje = (props) => {
 
@@ -115,35 +116,42 @@ const FormViaje = (props) => {
 
     return (
         <>
-        <div className="row">
-            <div className='col-5'>
-                <h1>Planes de viaje</h1>
-                <div className="row justify-content-center">
-                    <form onSubmit={e => e.preventDefault()}>
-                        <div className="">
-                        <label htmlFor="destino" className="form-label">Seleccione su destino turístico</label>
-                            <select required={true} className="form-select" name='destino' value={destino} onChange={handleChangeDestino}>
-                                <option >Seleccione el una ciudad</option>
-                                <option value="Panama">Ciudad de Panamá</option>
-                                <option value="Mexico">Ciudad de México</option>
-                                <option value="Chile">Santiago de Chile</option>
-                                <option value="Peru">Machu Picchu Perú</option>
-                                <option value="Honduras">Rotan Honduras</option>
-                            </select>
-                        </div>
-                        <div className="">
-                            <label htmlFor="cantPersona" className="form-label">Ingredientes adicionales</label>
-                            <input type="number" min={1} className="form-control" name='cantPersona' value={cantPersona} onChange={handleChangeCantidad} />
-                        </div>
-                        <button className="btn btn-primary col- mx-auto" onClick={handleClick} >Calcular costo</button>
+            <div className="row">
+                <div className='col-5'>
+                    <h1>Planes de viaje</h1>
+                    <div className="row justify-content-center">
+                        <form onSubmit={e => e.preventDefault()}>
+                            <div className="">
+                                <label htmlFor="destino" className="form-label">Seleccione su destino turístico</label>
+                                <select required={true} className="form-select" name='destino' value={destino} onChange={handleChangeDestino}>
+                                    <option >Seleccione el una ciudad</option>
+                                    <option value="Panama">Ciudad de Panamá</option>
+                                    <option value="Mexico">Ciudad de México</option>
+                                    <option value="Chile">Santiago de Chile</option>
+                                    <option value="Peru">Machu Picchu Perú</option>
+                                    <option value="Honduras">Rotan Honduras</option>
+                                </select>
+                            </div>
+                            <div className="">
+                                <label htmlFor="cantPersona" className="form-label">Ingredientes adicionales</label>
+                                <input type="number" min={1} className="form-control" name='cantPersona' value={cantPersona} onChange={handleChangeCantidad} />
+                            </div>
+                            <button className="btn btn-primary col- mx-auto" onClick={handleClick} >Calcular costo</button>
 
-                    </form>
+                        </form>
 
+                    </div>
                 </div>
-            </div>
-            <div className="col-6">
-
-            </div>
+                <div className="col-6">
+                    <Result
+                        destino={destino}
+                        cantPersona={cantPersona}
+                        costoPaquete={costoPaquete}
+                        porcentaje={porcentaje}
+                        impuesto={impuesto}
+                        total={total}
+                    />
+                </div>
             </div>
 
         </>
