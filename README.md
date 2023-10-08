@@ -8,10 +8,10 @@ _SmartHydroHeat App es una aplicación móvil que en conjunto con un calentador 
 ## Autores ✒️
 
 * **Mejia Olmedo, Edwin Adonay** - :octocat: [edwinmejia-123](https://github.com/edwinmejia-123)
-* **Rodríguez Martínez, Víctor René** - :octocat: [Victor-Rodriguez](https://github.com/Victor-Rodriguez)
-* **Martínez García, Iván Alexander** - :octocat: [ivanboot](https://github.com/ivanboot)
 * **Nolazco Umanzor, Ronald Alexander** - :octocat: [RonaldNolascoU](https://github.com/RonaldNolascoU)
 * **Elías Pérez, Karletty Carolina** - :octocat: [Karletty](https://github.com/Karletty)
+* **Rodríguez Martínez, Víctor René** - :octocat: [Victor-Rodriguez](https://github.com/Victor-Rodriguez)
+* **Martínez García, Iván Alexander** - :octocat: [ivanboot](https://github.com/ivanboot)
 
 ## Documento de primer avance 📋
 * [Primer avance](https://drive.google.com/file/d/1RR6Yypv_XXfvDoUaSP3rn9H3ToOzh6GN/view?usp=sharing)
@@ -21,13 +21,13 @@ _SmartHydroHeat App es una aplicación móvil que en conjunto con un calentador 
 
 ## Manuales 🛠️
 * [Manual técnico](https://drive.google.com/file/d/1HXZVSP7Z1tQXChkCdOCcaOB94M3zVr8z/view?usp=sharing)
-* [Manual usuario]
+* [Manual usuario](https://drive.google.com/file/d/1fgyeGVVa2xhCgGGqbtZQiWO1GaE37x-I/view?usp=sharing)
 
 ## Prototipado 📄
 * [Prototipado](https://drive.google.com/file/d/1JyzNG63a0_O3-Iu1w2qvdP5Q4erPHh9C/view?usp=sharing)
 
 ## Video de funcionamiento 📄
-* https://drive.google.com/file/d/1O2q6K5RZh00Au3KLCO5fE4jESpT1c2BW/view?usp=drive_link
+* https://drive.google.com/file/d/1Hhym5DHxvhJbWNC_JyeGDIPcTHHPkJKJ/view?usp=drive_link
   
 ## Licencia 🔒 
 
